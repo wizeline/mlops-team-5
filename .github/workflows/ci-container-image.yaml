@@ -1,4 +1,4 @@
-name: Build container image and push it to ECR
+name: build_container-image_and_push_it_to_ecr
 
 on:
   push:
