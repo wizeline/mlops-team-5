@@ -2,9 +2,10 @@ name: Build container image and push it to ECR
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
-      - app
+      - 'app/**'
 
 jobs:
   build:
